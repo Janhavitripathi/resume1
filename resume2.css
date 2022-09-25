@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    font-family: Arial, Helvetica, sans-serif;
+    @media (max-width: 400px){
+      width: 100%;
+    }
+  }
+  #aside{
+    background-color: #293e49;
+  
+    color: white;
+  }
+  .info{
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .aside-title1{
+    margin: 40px 0 10px 50px;
+  }
+  .aside-title{
+    margin: 0 0 10px 50px;
+  }
+  span{
+    color: #a9b1b6;
+  }
+  #main{
+    margin: 0 50px;
+  }
+  .job-desc{
+    font-size: 20px;
+  }
+  a, a :hover, a :visited{
+    text-decoration: none;
+    color: #fff;
+  }
